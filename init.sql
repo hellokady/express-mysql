@@ -1,0 +1,8 @@
+DROP TABLE IF EXISTS `user`;
+
+CREATE TABLE IF NOT EXISTS `user` (
+  `id` bigint(20) NOT NULL AUTO_INCREMENT,
+  `name` varchar(255) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
+  `age` int(11) DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=6 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci0; 
